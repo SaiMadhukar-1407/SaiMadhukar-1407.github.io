@@ -122,14 +122,14 @@ const educationInfo = {
       logo: require("./assets/images/OU-logo.png"),
       subHeader: "PhD in Computer Science",
       duration: "January 2026 - present",
-      desc: "Research in Computer Vision",
+      desc: "Research in Computer Vision"
     },
     {
       schoolName: "University Of Oklahoma",
       logo: require("./assets/images/OU-logo.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "August 2023 - May 2025",
-      desc: "Took courses about Artificial Intelligence, Machine Learning Practice, Software Engineering, Blockchains & Cryptocurrencies, Operating Systems, ...",
+      desc: "Took courses about Artificial Intelligence, Machine Learning Practice, Software Engineering, Blockchains & Cryptocurrencies, Operating Systems, ..."
     }
   ]
 };
@@ -154,7 +154,7 @@ const techStack = {
     {
       Stack: "Programming",
       progressPercentage: "90%"
-    },
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };

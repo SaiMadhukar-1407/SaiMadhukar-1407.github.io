@@ -21,9 +21,11 @@ export default function GithubProfileCard({prof}) {
               <p className="subTitle blog-subtitle">{contactInfo.title}</p>
               <p className="subTitle blog-subtitle">{contactInfo.subtitle}</p>
               <p className="subTitle blog-subtitle">{contactInfo.number}</p>
-              <p className="subTitle blog-subtitle">{contactInfo.email_address}</p>
+              <p className="subTitle blog-subtitle">
+                {contactInfo.email_address}
+              </p>
             </div>
-            
+
             <SocialMedia />
           </div>
           <div className="image-content-profile">
