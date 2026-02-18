@@ -19,8 +19,6 @@ RUN npm install
 # Audit fix npm packages
 RUN npm audit fix
 
-RUN prettier
-
 # Bundle app source
 COPY . /app
 
